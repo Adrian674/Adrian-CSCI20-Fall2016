@@ -41,6 +41,8 @@ int main()
     cin>> adjective3;
     cout<<"enter number2: ";
     cin>> number2;
+    cout<<"enter any character key: ";
+    cin>> letter;
     
     cout<<"Look, I guarantee there`ll be " <<adjective1<<" times. "<<endl;
     cout<<"I guarantee that at some " <<noun1;
