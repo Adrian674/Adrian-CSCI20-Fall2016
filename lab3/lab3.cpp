@@ -1,4 +1,4 @@
-//Creator: Adrian
+//Creator: Adrian Gomez-Mora
 //Date: 8/31/16
 
 #include <iostream>
