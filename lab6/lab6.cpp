@@ -1,24 +1,25 @@
-//Creator: Adrian Gomez
-//Date: 8/24/16
+//Creator: Adrian
+//Date: 9/19/16
 
 #include <iostream>
 using namespace std;
 
-
-int main()
-{
-        
+void printMan(){
 cout<<"    ___"<<endl;
 cout<<"     |"<<endl;
 cout<<"     |"<<endl;
 cout<<"     ---(*_*)"<<endl;
 cout<<"          |-----"<<endl;
 cout<<"          |    |"<<endl;
-cout<<"          |    |--"<<endl;
+cout<<"          |    |-- Copyright Adrian Gomez 2016"<<endl;
 cout<<"        --=--"<<endl;
 cout<<"        |   |"<<endl;
 cout<<"        |   |"<<endl;
 cout<<"        |   |"<<endl;
 cout<<"        |_  |_"<<endl;
+}
 
+int main(){
+    printMan();
+    printMan();
 }
