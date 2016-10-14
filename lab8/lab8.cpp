@@ -8,25 +8,28 @@ using namespace std;
 double ToKilos (double pounds)          //function set up to calculate kilos from pounds
 {
     double amountKilos;
-    amountKilos= (pounds * 2.20462);
+    amountKilos= (pounds * .453592);
     return amountKilos;
 }
 
 double ToPounds (double kilos)
 {
     double amountPounds;
-    amountPounds= (kilos * .453592);
+    amountPounds= (kilos * 2.20462);
     return amountPounds;
 }
 
 int main(){
-  // double pounds= 0;
-  // double kilos= 0;
+   double pounds= 0;
+   double kilos= 0;
    
     cout<<"Please input an amount of pounds: ";
-    cin>>;
+    cin>>pounds;
     
-    cout<<"Please input an amount of kilos";
+    cout<<"Please input an amount of kilos: ";
     cin>>kilos;
+    
+    cout<<"Here is the conversion from "<<pounds<<" lbs to kilos: "<<ToKilos(pounds)<<endl;
+    cout<<"Here is the conversion from "<<kilos<<" kilos to pounds: "<<ToPounds(kilos)<<endl;
     
 }
