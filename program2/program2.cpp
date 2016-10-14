@@ -21,7 +21,7 @@ class DistanceConverter{
  void SetDistFromMiles(double miles){
   miles_= miles;
  }
- double GetDistFromMiles(){
+ double GetDistAsMiles(){
   return miles_;
  }
  
@@ -55,5 +55,34 @@ double GetDistAsFeet(){
   
  };
 int main() {
-    
+   cout<<"1 mile to feet."<<endl;
+   DistanceConverter distance1;
+   distance1.SetDistFromMiles(1);
+   cout<<distance1.GetDistAsFeet()<<endl;
+   
+   cout<<"1 mile to inches."<<endl;
+   cout<<distance1.GetDistAsInches()<<endl;
+   
+   cout<<"1 mile to meters."<<endl;
+   cout<<distance1.GetDistAsMeters()<<endl;
+   
+   cout<<"1 mile to yards."<<endl;
+   cout<<distance1.GetDistAsYards()<<endl;
+   
+   cout<<"16 meters to miles."<<endl;
+   distance1.SetDistFromMeters(16);
+   cout<<distance1.GetDistAsMiles()<<endl;
+   
+   cout<<"20 yards to feet."<<endl;
+   distance1.SetDistFromYards(20);
+   cout<<distance1.GetDistAsFeet()<<endl;
+   
+   cout<<"100 inches to meters."<<endl;
+   distance1.SetDistFromInches(100);
+   cout<<distance1.GetDistAsMeters()<<endl;
+   
+   cout<<"1 meter to miles."<<endl;
+   distance1.SetDistFromMeters(1);
+   cout<<distance1.GetDistAsMiles()<<endl;
+   
 }

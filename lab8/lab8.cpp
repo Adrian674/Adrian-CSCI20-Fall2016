@@ -5,26 +5,26 @@
 #include <iostream>
 using namespace std;
 
-double ToKilos (double pounds)//function set up to calculate kilos from pounds
+double ToKilos (double pounds)          //function set up to calculate kilos from pounds
 {
-    
+    double amountKilos;
     amountKilos= (pounds * 2.20462);
-    return ToKilos;
+    return amountKilos;
 }
 
 double ToPounds (double kilos)
 {
-    
-    ToPounds= (kilos * .453592);
-    return ToPounds;
+    double amountPounds;
+    amountPounds= (kilos * .453592);
+    return amountPounds;
 }
 
 int main(){
-   double pounds= 0;
-   double kilos= 0;
+  // double pounds= 0;
+  // double kilos= 0;
    
     cout<<"Please input an amount of pounds: ";
-    cin>>pounds;
+    cin>>;
     
     cout<<"Please input an amount of kilos";
     cin>>kilos;
