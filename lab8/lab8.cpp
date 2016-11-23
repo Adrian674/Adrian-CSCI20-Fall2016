@@ -4,7 +4,11 @@
 
 #include <iostream>
 using namespace std;
-
+class weightConv {
+    private:
+    int kilos_;
+    int pounds_;
+}
 double ToKilos (double pounds)          //function set up to calculate kilos from pounds
 {
     double amountKilos;
