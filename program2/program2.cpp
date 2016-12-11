@@ -14,9 +14,9 @@ class DistanceConverter{
  DistanceConverter(){
   miles_=0;
  }
- DistanceConverter(double x){
+ /*DistanceConverter(double x){
   miles_=x;
- }
+ } */
  
  void SetDistFromMiles(double miles){
   miles_= miles;

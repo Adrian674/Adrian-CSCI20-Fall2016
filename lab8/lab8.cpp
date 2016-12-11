@@ -4,36 +4,60 @@
 
 #include <iostream>
 using namespace std;
+
+
 class weightConv {
     private:
-    int kilos_;
-    int pounds_;
-}
-double ToKilos (double pounds)          //function set up to calculate kilos from pounds
-{
-    double amountKilos;
-    amountKilos= (pounds * .453592);
-    return amountKilos;
+    double kilos_;                  //These are local variables to the class
+    double pounds_;
+
+    public:
+    weightConv(){
+        kilos_  = 0;
+        pounds_ = 0;
+    }
+    
+void SetKilos (double kilos) {      //kilos is local to function
+    kilos_ = kilos;
 }
 
-double ToPounds (double kilos)
-{
-    double amountPounds;
-    amountPounds= (kilos * 2.20462);
-    return amountPounds;
+double GetKilos () {          
+    return kilos_;
 }
 
-int main(){
-   double pounds= 0;
-   double kilos= 0;
-   
-    cout<<"Please input an amount of pounds: ";
-    cin>>pounds;
+void SetPounds (double pounds){     //pounds is local to function
+    pounds_ = pounds;
+}
+
+double GetPounds (){
+    return pounds_;
+}
+
+double ptok() {
+ return pounds_ * .453592;    
+}
+
+double ktop() {
+    return kilos_ * 2.20462;
+    
+}
+
+};
+
+int main(){                             
+    weightConv weight;
+    double pounds;                      //Global variables
+    double kilos;
     
     cout<<"Please input an amount of kilos: ";
     cin>>kilos;
+    weight.SetKilos(kilos);
     
-    cout<<"Here is the conversion from "<<pounds<<" lbs to kilos: "<<ToKilos(pounds)<<endl;
-    cout<<"Here is the conversion from "<<kilos<<" kilos to pounds: "<<ToPounds(kilos)<<endl;
+    cout<<"Please input an amount of pounds: ";
+    cin>>pounds;
+    weight.SetPounds(pounds);
     
+    cout<<"Here is the conversion from kilos to pounds: " <<weight.ktop()<<endl;
+    cout<<"Here is the conversion from lbs to kilos: " <<weight.ptok()<<endl;
+   
 }
