@@ -1,0 +1,30 @@
+CHEM 1     General Chemistry I
+4
+5
+CSCI 20    Programs and Algorithms I
+4
+3
+CSCI 20    Programs and Algorithms II
+3
+3
+CSCI 22    Discrete Structures
+4
+3
+ENGR 17    Electrical Circuits and Devices
+3
+4
+MATH 30    Analytic Geometry and Calculus I
+4
+5
+MATH 31    Analytic Geometry and Calculus II
+3
+4
+Math 40    Differential Equations
+4
+4
+PHYS 41    Physics for Scientists and Engineers I
+4
+4
+PHYS 41    Physics for Scientists and Engineers II
+2
+4

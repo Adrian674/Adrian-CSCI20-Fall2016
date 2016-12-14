@@ -1,0 +1,30 @@
+CSCI 4     Introduction to Programming Concepts and Methodologies
+3
+3
+CSCI 49    PC and Peripherals/ A+
+2
+4
+CSCI 20    Programs and Algorithms I
+3
+3
+CSCI 21    Programs and Algorithms II
+1
+3
+CSCI 22    Discrete Structures
+4
+3
+MATH 18    Introduction to Statistics
+4
+3
+MATH 13    Survey of Calculus
+3
+4
+ACCT 2    Financial Accounting
+4
+4
+ACCT 4    Managerial Accounting
+3
+4
+ECON 4    Principles of Microeconomics
+4
+3
